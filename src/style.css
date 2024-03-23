@@ -1,38 +1,47 @@
 body {
-  background-color: #f9f7fe;
-  font-family: "Roboto", sans-serif;
+  background: linear-gradient(
+    to top,
+    rgb(251, 194, 235) 0%,
+    rgb(166, 193, 238) 100%
+  );
+
+  font-family: "Caveat", cursive;
 }
 a {
-  color: #885df1;
+  color: blueviolet;
 }
 .weather-app {
-  background: white;
-  max-width: 600px;
+  background: #eb8faf;
+  max-width: 800px;
   margin: 45px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-  border-radius: 16px;
+  border-radius: 40px;
   padding: 30px;
 }
 header {
-  border-bottom: 1px solid #f9f7fe;
+  border-bottom: 5px solid #a6c0ed;
   padding: 0 0 30px 0;
 }
 
 .search-form-input {
-  background-color: #f9f7fe;
+  background-color: #cfc1ec;
   border: none;
-  border-radius: 6px;
+  border-radius: 40px;
   width: 80%;
+  font-family: "Caveat", cursive;
   font-size: 16px;
+  font-weight: bold;
   padding: 15px 20px;
 }
 .search-form-button {
-  background: #885df1;
-  padding: 15px 30px;
+  background: #a8c1ee;
+  padding: 17px 40px;
   border: none;
-  font-size: 16px;
+  font-family: "Caveat", cursive;
+  font-size: 15px;
+  font-weight: bold;
   margin-left: 5px;
-  border-radius: 6px;
+  border-radius: 40px;
   color: white;
 }
 
@@ -48,11 +57,11 @@ main {
 .weather-app-details {
   font-size: 16px;
   line-height: 20px;
-  color: rgba(39, 33, 66, 0.4);
+  color: black;
   font-weight: 500;
 }
 .weather-app-details strong {
-  color: #f65282;
+  color: blueviolet;
 }
 
 .weather-app-temperature-container {
@@ -85,7 +94,7 @@ main {
 }
 .weather-forecast-date {
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
+  color: black;
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
@@ -97,7 +106,7 @@ main {
 
 .weather-forecast-temperatures {
   text-align: center;
-  color: #f65282;
+  color: blueviolet;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -107,8 +116,9 @@ main {
 }
 
 footer {
-  border-top: 1px solid #f9f7fe;
+  border-top: 5px solid #a6c0ed;
   padding: 30px 0 0 0;
+  margin-top: 10px;
   text-align: center;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
